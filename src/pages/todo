@@ -1,5 +1,24 @@
-line spacing x1.2 for the paragraphs in commitment
-navbar buttons -2 font
-background no navbar header 
-smaller font size 
 
+
+
+today:
+fixed text in the home button, italized font, email function, changed fonts, made them smaller,
+got rid of navbar header 
+
+Things to figure out:
+1. how to validate input for string only + change name and settings
+2. validate input to send the email, figure out how to link it to one and send a custom email 
+3. Make the backgrounds less gray
+4. fix any general formatting
+5. Format the Submit button
+
+Implement this madlibs:
+
+Hi, 
+My name is ____, and i can be contacted at: ____. The subject of this job is: . 
+Here are the details:
+Quantity
+Size:
+Stock:
+Pages:
+Finishing:

@@ -33,7 +33,7 @@ export default class Services extends React.Component{
                      <Grid padding={0} container spacing={0}>
                          <Grid item xs={2}/>
                 <Grid  item xs={4} spacing={0} style={{backgroundColor:"#DDDDDD99"}}>
-                    <div style ={{textAlign: "left",fontSize:14}}>
+                    <div style ={{textAlign: "left",fontSize:14,  fontFamily:"minion-pro, serif"}}>
                                 <li style={{paddingBottom:5}}> Creative services</li>
                                 <li style={{paddingBottom:5}}> Offset printing</li>
                                 <li style={{paddingBottom:5}}> Scanning</li>
@@ -44,7 +44,7 @@ export default class Services extends React.Component{
                             </div>
             </Grid><Grid  item xs={5} spacing={0} style={{backgroundColor:"#DDDDDD99"}}>
             
-            <div style ={{textAlign: "left",fontSize:14}}>
+            <div style ={{textAlign: "left",fontSize:14,  fontFamily:"minion-pro, serif"}}>
                                 <li style={{paddingBottom:5}}> Blueprint Reproduction</li>
                                 <li style={{paddingBottom:5}}> Large Format Color</li>
                                 <li style={{paddingBottom:5}}> Variable Data</li>

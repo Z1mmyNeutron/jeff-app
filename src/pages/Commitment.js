@@ -32,9 +32,9 @@ export default class Commitment extends React.Component{
                         <h2> All About Oxford Lithograph Co., Inc</h2>
                         <div style={{paddingLeft:75, paddingRight: 75}}>
                             <h4><i> Our Commitment </i></h4>
-                            <p style={{fontSize:13}}>   We pride ourselves in giving clients the two things that are most import to them (and to us) - QUALITY and SERVICE! We’ve all heard the saying “there’s never time to do it right the first time, but there’s always time to do it over.”</p>
-                            <p style={{fontSize:13}}>   Paying attention to the details assures clients of our commitment to Quality. As for Service, we have worked through the night and weekends to meet a delivery requirement that others had thought could not be done.</p>
-                            <p style={{fontSize:13}}>   So, if you want Quality Printing and Outstanding Service at Competitive Prices, look no further than Oxford Lithograph.</p>
+                            <p style={{fontSize:14, lineHeight:1.3}}>   We pride ourselves in giving clients the two things that are most import to them (and to us) - QUALITY and SERVICE! We’ve all heard the saying “there’s never time to do it right the first time, but there’s always time to do it over.”</p>
+                            <p style={{fontSize:14, lineHeight:1.3}}>   Paying attention to the details assures clients of our commitment to Quality. As for Service, we have worked through the night and weekends to meet a delivery requirement that others had thought could not be done.</p>
+                            <p style={{fontSize:14, lineHeight:1.3}}>   So, if you want Quality Printing and Outstanding Service at Competitive Prices, look no further than Oxford Lithograph.</p>
                         </div>
                     </div>
 

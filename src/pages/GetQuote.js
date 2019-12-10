@@ -34,7 +34,7 @@ export default class GetQuote extends React.Component{
                         </div>
                         <div style={{marginLeft:60, marginRight: 60, backgroundColor:"#FFFB",
                         height:"76.3%", display:"flex" }}>
-                            <Form/>
+                           <Form action="/index.php"/>
                          
                             </div>
                     

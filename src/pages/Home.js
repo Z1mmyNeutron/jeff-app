@@ -27,8 +27,9 @@ export default class Home extends React.Component{
                     fontFamily:"minion-pro, serif"}}>
                         <h1> Oxford Lithograph Co., Inc</h1>
                         <div style={{paddingLeft:75, paddingRight: 75}}>
-                            <p style={{lineHeight:1.3}}>   is your source for Quality Offset and Digital printing services. By incorporating “traditional” and the newest “digital” technologies, we pride ourselves in getting jobs done on a timely basis. Whether it’s for a same-day presentation, a financial report or a complex brochure, our printing specialists know how to get things accomplished.</p>
-                            <p>   We offer a wide range of services including b/w and color digital reproduction, variable on-demand digital and offset printing, mailing and fulfillment, and custom graphic design services to complete us as a one-stop solution provider.</p>
+                            <p style={{lineHeight:1.3}}>    is your source for Quality Offset and Digital printing services. By incorporating “traditional” and the newest “digital” technologies, we pride ourselves in getting jobs done on a timely basis. </p>
+                            <p style={{lineHeight:1.3}}>    Whether it’s for a same-day presentation, a financial report or a complex brochure, our printing specialists know how to get things accomplished.</p>
+                            <p style={{lineHeight:1.3}}>    We offer a wide range of services including b/w and color digital reproduction, variable on-demand digital and offset printing, mailing and fulfillment, and custom graphic design services to complete us as a one-stop solution provider.</p>
                         </div>
                     </div>
 

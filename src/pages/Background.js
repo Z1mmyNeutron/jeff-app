@@ -27,8 +27,8 @@ export default class Background extends React.Component{
                         <h2> All About Oxford Lithograph Co., Inc</h2>
                         <div style={{paddingLeft:75, paddingRight: 75}}>
                             <h3><i> Our Background </i></h3>
-                            <p>   Oxford Lithograph was founded in 1970 as an off-shoot of what was then the largest combined lithograph and letter shop in New York. That was the basis for our present ability to handle projects from inception through printing, folding and binding, inserting and mailing.</p>
-                            <p>   As the printing industry evolves and technological advances consign yesterday’s systems to today’s dust heap, Oxford Lithograph has kept pace. Our in-house capabilities not only include traditional printing methods but also include the latest digital
+                            <p style={{lineHeight:1.3}}>   Oxford Lithograph was founded in 1970 as an off-shoot of what was then the largest combined lithograph and letter shop in New York. That was the basis for our present ability to handle projects from inception through printing, folding and binding, inserting and mailing.</p>
+                            <p style={{lineHeight:1.3}}>   As the printing industry evolves and technological advances consign yesterday’s systems to today’s dust heap, Oxford Lithograph has kept pace. Our in-house capabilities not only include traditional printing methods but also include the latest digital
 technologies for pre-press and printing.</p>
                         </div>
                     </div>
