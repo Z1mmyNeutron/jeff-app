@@ -13,7 +13,7 @@ import Background from "./pages/Background.js";
 import Commitment from "./pages/Commitment.js";
 import Services from "./pages/Services.js";
 import GetQuote from "./pages/GetQuote.js";
-import Navbar from "./Navbar.js";
+import Navbar from "./pages/Navbar.js";
 
 const routing = (
   <Router>
