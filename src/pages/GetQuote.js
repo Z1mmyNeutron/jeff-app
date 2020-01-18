@@ -7,7 +7,7 @@ import {
   Switch
 } from "react-router-dom";
 
-import Navbar from '../Navbar.js'
+import Navbar from './Navbar.js'
 import Form from "./Form.js"
 import "./backdrop.css"
 
@@ -34,7 +34,7 @@ export default class GetQuote extends React.Component{
                         </div>
                         <div style={{marginLeft:60, marginRight: 60, backgroundColor:"#FFFB",
                         height:"76.3%", display:"flex" }}>
-                           <Form action="/index.php"/>
+                           <Form/>
                          
                             </div>
                     

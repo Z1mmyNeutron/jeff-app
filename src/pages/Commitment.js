@@ -7,7 +7,7 @@ import {
   Switch
 } from "react-router-dom";
 
-import Navbar from '../Navbar.js'
+import Navbar from './Navbar.js'
 import "./backdrop.css"
 
 
@@ -18,14 +18,14 @@ export default class Commitment extends React.Component{
             <Navbar/>
             <div style={{backgroundColor:"#FFFFF00"}}>
             <Grid padding={0} container spacing={0}>
-            <Grid item xs={7} spacing={0} style={{backgroundColor:"#DDDDDD99"}}>           
+            <Grid item xs={7} spacing={0} style={{backgroundColor:"#F3F3F399"}}>           
                     <img src={require('../images/Commitment.jpeg')}width="100%" height="auto"/>      
                     <br/>
                     <br/> 
                     <br/>
                     <br/>  
             </Grid>
-                <Grid  item xs={5} spacing={0} style={{backgroundColor:"#DDDDDD99"}}>
+                <Grid  item xs={5} spacing={0} style={{backgroundColor:"#F3F3F399"}}>
                     <div style={{textAlign:"center", paddingLeft:5, paddingRight:5, 
                     position: 'relative', top: '45%', transform: 'translate(0%, -50%)', 
                     fontFamily:"minion-pro, serif"}}>

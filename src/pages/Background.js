@@ -7,7 +7,7 @@ import {
   Switch
 } from "react-router-dom";
 
-import Navbar from '../Navbar.js'
+import Navbar from './Navbar.js'
 import "./backdrop.css"
 
 
@@ -15,10 +15,10 @@ export default class Background extends React.Component{
     render(){
         return(
         <div className="Background">
-        <div style={{backgroundColor:"#FFFFFFBB"}}>
+        <div style={{backgroundColor:"#49494988"}}>
             <Navbar/>
         </div>
-            <div style={{backgroundColor:"#FFFFF00"}}>
+            <div style={{backgroundColor:"#FFFFF00", minWidth:"50vw", minHeight:"50vh"}}>
             <Grid padding={0} container spacing={0}>
                 <Grid  item xs={5} spacing={0} style={{backgroundColor:"#DDDDDD99"}}>
                     <div style={{textAlign:"center", paddingLeft:5, paddingRight:5, 

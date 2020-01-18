@@ -1,5 +1,5 @@
 
-
+<!-- written by Christina Zimmer-->
 
 today:
 fixed text in the home button, italized font, email function, changed fonts, made them smaller,
@@ -12,6 +12,17 @@ Things to figure out:
 4. fix any general formatting
 5. Format the Submit button
 
+   changeName=(val)=>{
+       if ( val.length < 25 && /^[a-zA-Z\s]+$/.test( val) ) {
+       this.setState({name:val})
+}
+  changeEmail=(val)=>{
+      if( val.length <25 && /^[a-zA-Z\s]+s/.test( val ) ){
+      this.setState({email:val})
+      }
+   }
+
+
 Implement this madlibs:
 
 Hi, 
@@ -22,3 +33,50 @@ Size:
 Stock:
 Pages:
 Finishing:
+
+
+
+const inputStyle = {backgroundColor:"#00000000",
+    border:"none", borderBottom:"solid", borderWidth:1, borderColor:"gray",
+    width:"100%", paddingTop:5, marginLeft:10,
+    fontSize:14,fontFamily:"minion-pro, serif", fontStyle: "italic",
+    height:"auto", margin:0, padding: 0,
+     }
+const submitStyle = {
+    backgroundColor:"black", width:"70%", 
+    alignItems:"center",justifyContent:"center", 
+    marginLeft:50, paddingTop:5,
+    display:"flex", color:"white", height:"6%",
+    fontSize:18,fontFamily:"minion-pro, serif"
+}
+
+
+//.inputStyle[type=text],input[type=email]{
+    background-color: #00000000;
+    border: "none";
+    border-bottom:"solid"; 
+    border-width:1;
+    border-color:"gray";
+    width:"100%";
+    padding-top:5;
+    margin-left:10;
+    font-size:14;
+    font-family:"minion-pro, serif";
+    font-style: "italic";
+    height:"auto"; 
+    margin:0;
+    padding:0;
+     }
+.submitStyle[type=submit]{
+    background-color:"black";
+    width:"70%";
+    align-items:"center";
+    justify-content:"center";
+    margin-left:50;
+    padding-top:5;
+    display:"flex"; 
+    color:"white";
+    height:"6%";
+    font-size:18;
+    font-family:"minion-pro, serif";
+}
