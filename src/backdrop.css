@@ -1,0 +1,71 @@
+
+p {
+  line-height:1.5;
+  font-size:17;
+  text-align:"center";
+  font-family:"minion-pro, serif";
+  padding-left:75;
+  padding-right:75;
+}
+
+h1 {
+  font-family:"minion-pro, serif"
+}
+h2 {
+  font-family:"minion-pro, serif"
+}
+h3 {
+  font-family:"minion-pro, serif"
+}
+li {
+  font-size: 17;
+  font-family: "minion-pro, serif";
+  line-height:1.5;
+}
+
+.Background{
+  background-image: url("../images/FadedBackground.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+
+}
+
+.Commitment{
+  background-image: url("../images/FadedCommitment.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+
+
+}
+.GetQuote{
+  background-image: url("../images/FadedGetQuote.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+ 
+
+}
+.Home{
+  
+  background-repeat: no-repeat;
+  margin:1px;
+  background-size: cover;
+  background-position: center center;
+  border-width:3px;
+  border-color:black;
+
+
+
+}
+.Services{
+  background-image: url("../images/FadedServices.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+
+}
