@@ -93,13 +93,14 @@ export default class Form extends React.Component{
            this.setState({size:val})
        }
    }
+   
    changeStock=(val)=>{ 
-       if(val >= 0 ){
+       if(val <15 && /^[0-9]+$/.test(val)|| val == ""){
            this.setState({stock:val})
        }
    }
     changePages=(val) => { 
-       if(val >= 0 ){
+        if(val <15 && /^[0-9]+$/.test(val)|| val == ""){
            this.setState({pages:val})
        }
    }
@@ -196,8 +197,8 @@ export default class Form extends React.Component{
 
    render(){
        return(
-       <> {this.state.mailSent && (<p style={{fontSize:15, paddingLeft:10, lineHeight:1.5, paddingRight:10, fontFamily:"minion-pro, serif", alignItems:"center", justifyContent:"center" }}><i>Your message has been sent. Our team will get back to you shortly!</i></p>)}
-           {!this.state.mailSent && (<div style={{height:"100%", minWidth:"20vw", marginLeft:"19%", marginRight:"10%", width:"55%", alignItems:"center", justifyContent:"center"}}>
+       <> {this.state.mailSent && (<p style={{fontSize:16, paddingLeft:8, lineHeight:1.5, paddingRight:10, fontFamily:"minion-pro, serif", alignItems:"center", justifyContent:"center" }}><i>Your message has been sent. Our team will get back to you shortly!</i></p>)}
+           {!this.state.mailSent && (<div style={{height:"100%", minWidth:"20vw", marginLeft:"17%", marginRight:"17%", width:"55%", alignItems:"center", justifyContent:"center"}}>
                <br/>
                    
                    <div style={{height:"10%", width:"100%", alignItems:"center", justifyContent:"center", display: "inline" }}>

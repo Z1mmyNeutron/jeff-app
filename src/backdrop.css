@@ -1,11 +1,12 @@
 
 p {
   line-height:1.5;
-  font-size:17;
+  font-size:14;
   text-align:"center";
   font-family:"minion-pro, serif";
   padding-left:75;
   padding-right:75;
+
 }
 
 h1 {
@@ -18,23 +19,25 @@ h3 {
   font-family:"minion-pro, serif"
 }
 li {
-  font-size: 17;
+  font-size: 14;
   font-family: "minion-pro, serif";
   line-height:1.5;
-}
 
+}
 .Background{
   background-image: url("../images/FadedBackground.jpeg");
-  background-repeat: no-repeat;
+  flex:1;
+  align-items:stretch;
+  background-repeat: repeat;
   background-size: cover;
   background-position: center center;
-
-
 }
 
 .Commitment{
   background-image: url("../images/FadedCommitment.jpeg");
-  background-repeat: no-repeat;
+  flex:1;
+  align-items:stretch;
+  background-repeat: repeat;
   background-size: cover;
   background-position: center center;
 
@@ -43,15 +46,19 @@ li {
 }
 .GetQuote{
   background-image: url("../images/FadedGetQuote.jpeg");
-  background-repeat: no-repeat;
+  flex:1;
+  align-items:stretch;
+  background-repeat: repeat;
   background-size: cover;
   background-position: center center;
  
 
 }
 .Home{
-  
-  background-repeat: no-repeat;
+  background-image: url("../images/White.jpeg");
+  align-items:stretch;
+  flex:1;
+  background-repeat: repeat;
   margin:1px;
   background-size: cover;
   background-position: center center;
@@ -63,7 +70,9 @@ li {
 }
 .Services{
   background-image: url("../images/FadedServices.jpeg");
-  background-repeat: no-repeat;
+  flex:1;
+  align-items:stretch;
+  background-repeat: repeat;
   background-size: cover;
   background-position: center center;
 

@@ -15,7 +15,7 @@ export default class Home extends React.Component{
 
     constructor(props){
         super(props)
-
+        document.body.classList.add("Home");
         this.state = {width: 0, height: 0}
     }
 
@@ -45,14 +45,13 @@ export default class Home extends React.Component{
         <div className="Home">
             <div style={{backgroundColor:"#FFFFFF99"}}>
                 <Navbar/>
-            </div>  
-            
-            <div className="Home">
+            </div> 
                     <div style={{backgroundColor:"#FFFFF99", minWidth:1000}}>
                         <Grid padding={0} container spacing={0}>
                             <Grid  item xs={5} spacing={0} style={{paddingLeft:25}}>
                                 <div style={{textAlign:"center", 
                                     position: 'relative', 
+                                    top:"20%",
                                     minHeight:"30vh",
                                     transform:"translate(0%," + ( this.state.width < 600 ? "0": this.state.width < 800 ? "10" : "20") + "%)"}}>
                                         <h1> Oxford Lithograph Co., Inc</h1>
@@ -73,7 +72,7 @@ export default class Home extends React.Component{
                                     
                             </Grid>
                     </Grid>
-            </div>
+           
         </div>
         <div style={{minHeight:"10vh", backgroundColor:"#FFFFFF99"}}/>
     
