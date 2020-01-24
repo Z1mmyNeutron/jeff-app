@@ -31,16 +31,16 @@ export default class Navbar extends React.Component{
 
     render(){
       let padRight = "3%"
-      let padLeft = "3%"
+      let padLeft = "2%"
 
         return(
         
-         <div style={{backgroundColor:"#F4F4F4ac", minWidth:"100vw",minHeight:"10vh"}}>
+         <div style={{backgroundColor:"#F4F4F4ac", minWidth:1000}}>
             <Grid padding={0} container spacing={0}>
                 <Grid  item xs={2} spacing={0} style={{paddingTop:1.5,}}>
 
                 <NavLink to="/" >
-                <img src={require('../images/logo.png')}width="100%" height="100%"/>
+                <img src={require('../images/logo.png')}width="100%" height="auto"/>
                 </NavLink>
 
                 </Grid> 
